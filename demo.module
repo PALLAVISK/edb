@@ -1,0 +1,16 @@
+<?php
+function demo_theme($existing, $type, $theme, $path) {
+  $templates = $path . '/templates';
+  return [
+        'status_messages__demo' => [
+          'variables' => [
+            'type' => NULL,
+            'title' => NULL,
+          ],
+        ],
+    ];
+}
+
+function demo_theme_suggestions_status_messages_alter(array &$suggestions) {
+  $suggestions[] = 'status_messages__demo';
+  }

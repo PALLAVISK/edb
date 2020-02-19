@@ -1,0 +1,7 @@
+demo.custom-routing:
+  path: '/controller-demo' 
+  defaults:
+    _controller: '\Drupal\demo\Controller\DiController::events' 
+    _title: 'ROUTING Form'
+  requirements:
+    _permission: 'access content'

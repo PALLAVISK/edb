@@ -1,0 +1,15 @@
+.abc{
+    .messages__wrapper{
+    background-color: #a1accf;
+        .messages--status {
+            box-shadow: 10px 10px 5px #767388;
+            background-color: #a1accf;
+            border-color: #4e5e91;
+        }
+        .messages--status:hover{
+            background-color: #efdddd;
+            border-color: #826d6d;
+            box-shadow: 10px 10px 5px #694848;
+        }
+    }
+}
